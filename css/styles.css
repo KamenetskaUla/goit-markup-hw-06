@@ -375,7 +375,6 @@ address {
 /*-----Portfolio------*/
 
 .title-port {
-  display: flex;
   font-size: 36px;
   font-weight: 700;
   line-height: 1.11;
@@ -397,17 +396,18 @@ address {
 
 .portfolio {
   display: flex;
-  flex-wrap: wrap;
-
-  column-gap: 24px;
-  row-gap: 48px;
-}
+  flex-direction: column;
+  gap: 48px;
+  
 
 .port-item {
-  width: calc((100% - 48px) / 3);
+  width: 100%;
   transition: box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
-
+/* .card-img{
+   width:288px;
+   height:280px;
+} */
 .port-item:hover {
   box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08),
     0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
