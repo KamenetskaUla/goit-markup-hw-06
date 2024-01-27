@@ -98,4 +98,14 @@
   .first-ad {
     width: calc((100% - 24px) / 2);
   }
+  .portfolio {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+
+    gap: 24px;
+  }
+  .port-item {
+    width: calc((100% - 24px) / 2);
+  }
 }
