@@ -34,7 +34,11 @@
   }
   .portfolio {
   }
-  .port-item {
-    width: calc((100% - 48px) / 3);
-  }
+}
+.team {
+  flex-wrap: nowrap;
+}
+.team-fon-item {
+  width: 264px;
+  height: 428px;
 }
