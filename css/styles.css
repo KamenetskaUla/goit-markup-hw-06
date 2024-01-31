@@ -113,6 +113,7 @@ address {
   visibility: visible;
   pointer-events: auto;
 }
+
 .nav-wind {
   position: absolute;
   top: 50%;
@@ -713,7 +714,7 @@ address {
     visibility 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.is-open {
+.is-hidden {
   opacity: 1;
   visibility: visible;
   pointer-events: auto;
