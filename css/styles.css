@@ -566,6 +566,7 @@ address {
   letter-spacing: 0.02em;
   text-align: left;
   width: 264px;
+  line-height: 1.5;
 }
 
 .logo-footer {

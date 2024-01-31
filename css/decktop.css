@@ -3,6 +3,12 @@
     max-width: 1158px;
     padding: 0 15px;
   }
+  .section {
+    padding: 120px 0;
+  }
+  .navigation {
+    align-items: center;
+  }
   .logo {
     margin-right: 76px;
   }
@@ -13,6 +19,32 @@
   .contacts {
     font-size: 16px;
     line-height: 1.5;
+  }
+  .fon-section {
+    max-width: 1440px;
+    margin: 0 auto;
+    background-image: linear-gradient(
+        rgba(46, 47, 66, 0.7),
+        rgba(46, 47, 66, 0.7)
+      ),
+      url(../images/hero-desk-1x.jpg);
+
+    padding: 188px 0;
+  }
+  @media screen and (min-device-pixel-ratio: 2) and (min-width: 1158px),
+    screen and (min-resolution: 192dpi) and (min-width: 1158px),
+    screen and (min-resolution: 2dppx) and (min-width: 1158px) {
+    .fon-section {
+      background-image: linear-gradient(
+          to right,
+          rgba(46, 47, 66, 0.7),
+          rgba(46, 47, 66, 0.7)
+        ),
+        url(../images/hero-desk-2x.jpg);
+    }
+  }
+  .page-title {
+    margin-bottom: 48px;
   }
   .icons-place {
     display: flex;
@@ -28,11 +60,22 @@
   .advantages {
     flex-wrap: nowrap;
     gap: 24px;
+    align-items: baseline;
   }
-  .fon-section {
-    width: 100%;
+  .head-item {
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 1.2;
   }
+  .text {
+    font-weight: 400;
+  }
+  .team-tab {
+    padding: 0;
+  }
+
   .portfolio {
+    gap: 48px 24px;
   }
 
   .team {
@@ -44,5 +87,18 @@
 
   .port-item {
     width: calc((100% - 2 * 24px) / 3);
+  }
+  .footer-fon {
+    padding: 100px 0;
+  }
+
+  .footer-container {
+    gap: unset;
+  }
+  .foter {
+    margin-right: 120px;
+  }
+  .footer-soc-icons {
+    margin-right: auto;
   }
 }
