@@ -298,7 +298,7 @@ address {
   display: flex;
   width: 264px;
   flex-direction: column;
-  align-items: ;
+
   gap: 8px;
 }
 
@@ -476,16 +476,6 @@ address {
   fill: #f4f4fd;
 }
 
-@media (min-width: 768px) {
-  .team {
-    flex-direction: row;
-    flex-wrap: wrap;
-    flex-basis: calc((100% - 24px) / 2);
-    gap: 24px;
-    width: 100%;
-  }
-}
-
 /*-----Portfolio------*/
 
 .title-port {
@@ -576,11 +566,6 @@ address {
     display: block;
     margin-bottom: 8px;
   }
-
-  /*------Footer--------*/
-  /* .foter {
-    margin-right: 120px;
-  } */
 
   .footer-fon {
     background-color: #2e2f42;
