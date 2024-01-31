@@ -94,10 +94,22 @@
         url(../images/hero-tab-2x.jpg);
     }
   }
+  .page-title {
+    max-width: 496px;
+    margin-bottom: 36px;
+    font-size: 56px;
+    line-height: 1.07;
+  }
   .advantages {
     flex-direction: row;
     gap: 72px 24px;
     flex-wrap: wrap;
+  }
+  .first-ad {
+    width: calc((100% - 24px) / 2);
+  }
+  .head-item {
+    text-align: left;
   }
 
   .team-tab {
@@ -118,9 +130,28 @@
     flex-direction: row;
     flex-wrap: wrap;
 
-    gap: 24px;
+    gap: 72px 24px;
   }
   .port-item {
     width: calc((100% - 24px) / 2);
+  }
+
+  .footer-container {
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 72px 24px;
+    padding-left: 108px;
+  }
+  .logo-footer {
+    text-align: left;
+  }
+  .foot-form-mail {
+    flex-direction: row;
+  }
+  .foot-form-text {
+    text-align: left;
+  }
+  .footer-soc-media {
+    text-align: left;
   }
 }
