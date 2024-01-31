@@ -99,18 +99,17 @@
     gap: 72px 24px;
     flex-wrap: wrap;
   }
-  .first-ad {
-    width: calc((100% - 24px) / 2);
-  }
-  .team-tab {
-    padding: 0 108px;
 
-    .team {
-      flex-direction: row;
-      flex-wrap: wrap;
-      gap: 64px 24px;
-    }
+  .team-tab {
+    display: flex;
+    padding: 0 108px;
   }
+  .team {
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 64px 24px;
+  }
+
   .team-fon-item {
     width: calc((100% - 24px) / 2);
   }
